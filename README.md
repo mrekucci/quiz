@@ -9,3 +9,13 @@ Fork this repo, add your solution and documentation on how to compile and run yo
 Obviously, we are looking for a fresh solution, not based on others' code.
 
 
+# quiz solution usage
+
+In the downloaded "quiz" directory:
+
+1. Run the tests: `go test .`
+2. Run the benchmarks: `go test -run=NONE -bench=BenchmarkQuiz*`
+3. Compile the program: `go build quiz.go`
+4. Run the program: `./quiz word.list`
+
+For program usage information run: `./quiz -h`
